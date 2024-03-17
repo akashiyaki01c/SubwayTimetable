@@ -1,0 +1,340 @@
+{
+  "lines": [
+    {
+      "id": "S",
+      "name": {
+        "ja": "西神・山手線",
+        "en": "Seishin-yamate Line",
+        "zh": "西神・山手线",
+        "ko": "세이신・야마테선"
+      }
+    },
+    {
+      "id": "K",
+      "name": {
+        "ja": "海岸線",
+        "en": "Kaigan Line",
+        "zh": "海岸线",
+        "ko": "가이간선"
+      }
+    }
+  ],
+  "stations": {
+    "S": [
+      {
+        "id": "S01",
+        "name": {
+          "ja": "谷上",
+          "ja_short": "谷上",
+          "en": "Tanigami",
+          "zh": "谷上",
+          "ko": "다니가미"
+        },
+        "track": ["4", "5", "6"],
+        "is_terminal": true
+      },
+      {
+        "id": " S02",
+        "name": {
+          "ja": "新神戸",
+          "ja_short": "新神",
+          "en": "Shinkōbe",
+          "zh": "新神户",
+          "ko": "신고베"
+        },
+        "track": ["1", "2", "3"],
+        "is_terminal": true
+      },
+      {
+        "id": " S03",
+        "name": {
+          "ja": "三宮",
+          "ja_short": "三宮",
+          "en": "Sannomiya",
+          "zh": "三宫",
+          "ko": "산노미야"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": " S04",
+        "name": {
+          "ja": "県庁前",
+          "ja_short": "県庁",
+          "en": "Kenchōmae",
+          "zh": "县厅前",
+          "ko": "겐쵸만게"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": " S05",
+        "name": {
+          "ja": "大倉山",
+          "ja_short": "大倉",
+          "en": "Ōkurayama",
+          "zh": "大仓山",
+          "ko": "오쿠라야마"
+        },
+        "track": ["1", "2"],
+        "is_terminal": true
+      },
+      {
+        "id": " S06",
+        "name": {
+          "ja": "湊川公園",
+          "ja_short": "湊川",
+          "en": "Minatogawakoen",
+          "zh": "凑川公园",
+          "ko": "미나토가와코엔"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": " S07",
+        "name": {
+          "ja": "上沢",
+          "ja_short": "上沢",
+          "en": "Kamisawa",
+          "zh": "上泽",
+          "ko": "가미사와"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": " S08",
+        "name": {
+          "ja": "長田 (長田神社前)",
+          "ja_short": "長田",
+          "en": "Nagata (Nagatajinjamae)",
+          "zh": "长田 (长田神社前)",
+          "ko": "나가타 (나가타 신사)"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "S09",
+        "name": {
+          "ja": "新長田",
+          "ja_short": "新長",
+          "en": "Shinnagata",
+          "zh": "新长田",
+          "ko": "신나가타"
+        },
+        "track": ["1", "2"],
+        "is_terminal": true
+      },
+      {
+        "id": "S10",
+        "name": {
+          "ja": "板宿",
+          "ja_short": "板宿",
+          "en": "Itayado",
+          "zh": "板宿",
+          "ko": "이타야도"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "S11",
+        "name": {
+          "ja": "妙法寺",
+          "ja_short": "妙法",
+          "en": "Myōhōji",
+          "zh": "妙法寺",
+          "ko": "묘호지"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "S12",
+        "name": { "ja": "名谷", "ja_short": "名谷", "en": "Myōdani", "zh": "名谷", "ko": "묘다니" },
+        "track": ["1", "2", "3", "4"],
+        "is_terminal": true
+      },
+      {
+        "id": "S13",
+        "name": {
+          "ja": "総合運動公園",
+          "ja_short": "運動",
+          "en": "Sōgōundōkōen",
+          "zh": "綜合运动公园",
+          "ko": "소고운도코엔"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "S14",
+        "name": {
+          "ja": "学園都市",
+          "ja_short": "学園",
+          "en": "Gakuentoshi",
+          "zh": "学园都市",
+          "ko": "가쿠엔토시"
+        },
+        "track": ["1", "2"],
+        "is_terminal": true
+      },
+      {
+        "id": "S15",
+        "name": {
+          "ja": "伊川谷",
+          "ja_short": "伊川",
+          "en": "Ikawadani",
+          "zh": "伊川谷",
+          "ko": "이카와다니"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "S16",
+        "name": {
+          "ja": "西神南",
+          "ja_short": "神南",
+          "en": "Seishin-minami",
+          "zh": "西神南",
+          "ko": "세이신 미나미"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "S17",
+        "name": {
+          "ja": "西神中央",
+          "ja_short": "西神",
+          "en": "Seishin-chūō",
+          "zh": "西神中央",
+          "ko": "세이신 추오"
+        },
+        "track": ["1", "2", "3"],
+        "is_terminal": true
+      }
+    ],
+    "K": [
+      {
+        "id": "K01",
+        "name": {
+          "ja": "三宮・花時計前",
+          "ja_short": "三宮",
+          "en": "Sannomiya-Hanadokeimae",
+          "zh": "三宫・花时计前",
+          "ko": "산노미야・하나도케이마에"
+        },
+        "track": ["1", "2"],
+        "is_terminal": true
+      },
+      {
+        "id": "K02",
+        "name": {
+          "ja": "旧居留地・大丸前",
+          "ja_short": "大丸",
+          "en": "Kyūkyoryuchi-Daimarumae",
+          "zh": "旧居留地・大丸前",
+          "ko": "규교류치・다이마루마에"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "K03",
+        "name": {
+          "ja": "みなと元町",
+          "ja_short": "元町",
+          "en": "Minatomotomachi",
+          "zh": "港元町",
+          "ko": "미나토모토마치"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "K04",
+        "name": {
+          "ja": "ハーバーランド",
+          "ja_short": "神戸",
+          "en": "Harborland",
+          "zh": "海港园地",
+          "ko": "하버랜드"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "K05",
+        "name": {
+          "ja": "中央市場前",
+          "ja_short": "市場",
+          "en": "Chūōichibamae",
+          "zh": "中央市场前",
+          "ko": "추오이치바마에"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "K06",
+        "name": {
+          "ja": "和田岬",
+          "ja_short": "和田",
+          "en": "Wadamisaki",
+          "zh": "和田岬",
+          "ko": "와다미사키"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "K07",
+        "name": {
+          "ja": "御崎公園",
+          "ja_short": "御崎",
+          "en": "Misakikoen",
+          "zh": "御崎公园",
+          "ko": "미사키 코엔"
+        },
+        "track": ["1", "2", "3", "4"],
+        "is_terminal": true
+      },
+      {
+        "id": "K08",
+        "name": { "ja": "苅藻", "ja_short": "苅藻", "en": "Karumo", "zh": "刈藻", "ko": "가루모" },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "K09",
+        "name": {
+          "ja": "駒ヶ林",
+          "ja_short": "駒林",
+          "en": "Komagabayashi",
+          "zh": "驹林",
+          "ko": "고마가바야시"
+        },
+        "track": ["1", "2"],
+        "is_terminal": false
+      },
+      {
+        "id": "K10",
+        "name": {
+          "ja": "新長田",
+          "ja_short": "新長",
+          "en": "Shinnagata",
+          "zh": "新长田",
+          "ko": "신나가타"
+        },
+        "track": ["1", "2"],
+        "is_terminal": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="unyo.css">
+</head>
+<body>
+	<div class="main-table"></div>
+	<script src="lib/train.js"></script>
+	<script src="lib/io.js"></script>
+	<script src="lib/unyo.js"></script>
+	<script>
+		(async () => {
+			const params = new URLSearchParams(window.location.search);
+			let root = await get_root();
+			let unyo = getUnyo(params.get("number") || "01", Array.prototype.concat(root["week_west"], root["week_east"]));
+			document.querySelector(".main-table").innerHTML = unyoTrainsTableHtml(unyo);
+		})();
+	</script>
+</body>
+</html>

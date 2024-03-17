@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>時刻表</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<select name="sta" id="sta">
+		<option value="S01">谷上</option>
+		<option value="S02">新神戸</option>
+	</select>
+	<div class="main-timetable"></div>
+	<script src="lib/train.js"></script>
+	<script src="lib/io.js"></script>
+	<script src="lib/timetable.js"></script>
+	<script>
+		(async () => {
+			const params = new URLSearchParams(window.location.search);
+			let root = await get_root();
+			console.log(root);
+			console.log(root["week_west"]);
+
+			window._id = params.get("id") || "S13";
+			window._dia = params.get("dia") || "week_east";
+			document.querySelector(".main-timetable").innerHTML = getTrainsTimetableHtml(params.get("id") || "S13", root[params.get("dia") || "week_east"]);
+		})();
+		(async () => {
+			document.sta.onchange = () => {
+				document.sta.value
+			};
+		})();
+	</script>
+</body>
+</html>

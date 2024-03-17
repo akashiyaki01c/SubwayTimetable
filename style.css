@@ -1,0 +1,54 @@
+.main-timetable > table {
+	border-collapse: collapse;
+}
+
+.timetable-hour {
+	> td, > th {
+		border: 1px solid black;
+	}
+}
+.timetable-hour-hour {
+	width: 4rem;
+	line-height: 4rem;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.timetable-trains > div {
+	display: flex;
+}
+
+.timetable-train {
+	width: 3.5rem;
+	text-align: center;
+	display: flex;
+	margin-right: 1rem;
+}
+
+.timetable-train-time {
+	font-size: 1.5rem;
+}
+.timetable-train-unban {
+	font-size: 0.75rem;
+}
+
+.timetable-train-left {
+	width: 2.5rem;
+}
+
+.timetable-train-right {
+	width: 1.0rem;
+}
+
+.dest-S12 {
+	border: 1px black solid;
+}
+
+.dest-S02 {
+	border-bottom: 1px black solid;
+}
+
+.timetable-train-right.comment-reverse {
+	background-color: black;
+	color: white;
+}
